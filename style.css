@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    background-color: black;
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+h1{
+    padding: 40px;
+    margin-top: 0;
+    display: block;
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: lime;
+    border-bottom: 5px solid aqua;
+}
+
+canvas{
+    border:5px solid gray;
+    position:absolute;
+    margin:2vw 0;
+    left:50%;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    width:50%;
+    padding:1vw;
+    border-radius: 1vw;
+    height:50vw;
+    overflow:visible;
+
+} 
+h1::selection{
+    color:lime;
+}
